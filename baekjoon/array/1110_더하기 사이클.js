@@ -2,7 +2,7 @@ let fs = require('fs');
 let input = fs.readFileSync('/dev/stdin').toString();
 
 let newNum = Number(input);
-    let answer = 0;
+let answer = 0;
     do {
         let ten = Math.floor(newNum / 10);
         let one = newNum % 10;
